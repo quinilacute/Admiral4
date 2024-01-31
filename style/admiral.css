@@ -1,0 +1,1007 @@
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-style: normal;
+    font-family: sans-serif;
+    background-color:  white
+}
+
+/* for logo */
+header{
+    padding-top: 2%;
+}
+header img{
+    height: 50px;
+    position: absolute;
+    left: 3%;
+}
+
+nav{
+    font-size:  14px;;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: right;
+    padding-right:20%;
+    grid-gap: 26px;
+    word-spacing: 12px;
+    color: rgb(116, 12, 38);
+    text-decoration: none;
+    
+}
+/* for first page */
+.home{
+background-image: url(/images/background1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 900px;
+border: solid 4px rgb(78, 68, 68);
+margin-top: 2%;
+}
+
+.home h2{
+    font-size: 60px;
+    padding-left: 23%;
+    padding-top: 5%;
+    color: white;
+    text-align:justify;
+}
+.home p{
+    font-size: 37px;
+    padding-left: 2%;
+    padding-top: 1%;
+    color:  rgb(192, 155, 155);
+    text-align:justify;
+}
+.home a{
+    font-size: 37px;
+    left: 42%;
+    margin-top: 4%;
+    color: rgb(203, 200, 198);
+    text-align:center;
+    position: absolute;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.home a{
+    background-color: white;
+    width: 15%;
+    height: 50px;
+    border-radius: 6px;
+    color: black;
+    text-decoration: none;
+}
+
+.road{
+    bottom: 1px;
+    position: absolute;
+    left: 35%;
+    justify-content: center;
+}
+
+.road{
+    background-color: white;
+    width: 30%;
+    height: 120px;
+    border-radius: 6px;
+    color: black;
+}
+
+.road ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 18px;
+}
+
+.road h2{
+    color: red;
+    padding-left: 40%;
+    font-size: 23px;
+}
+
+
+/* for about us page */
+
+.abot{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 99%;
+    border: solid 4px rgb(78, 68, 68);
+}
+
+.abot img{
+    height: 50%;
+    padding-left: 7%;
+    padding-top: 6%;
+    position: absolute;
+    border-radius: 100px;
+}
+
+.fea{
+    position: relative;
+    padding-left: 58%;
+    padding-top: 8%;
+}
+
+.fea h3{
+    color: rgb(181, 24, 24);
+    font-size: 200%;
+}
+
+.fea p{
+    font-size: 18px;
+    padding-top: 4%;
+}
+
+.abot a{
+    font-size: 150%;
+    left: 58%;
+    margin-top: 3%;
+    text-align:center;
+    position: absolute;
+    justify-content: center;
+    text-decoration: none;
+}
+.abot a{
+    background-color: rgb(181, 24, 24);
+    height: 40px;
+    width: 10%;
+    border-radius: 17px;
+}
+/* 
+for features page */
+
+.feat{
+    background-color: rgb(181, 24, 24);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 99%;
+    border: solid 4px white;
+}
+
+.feat img{
+    height: 45%;
+    width: 40%;
+    padding-top: 10%;
+    left: 12%;
+    position: absolute;
+    border-radius: 80%;
+}
+
+.serv{
+    position: relative;
+}
+
+.serv h3{
+    color: white;
+    font-size: 50px;
+    padding-left: 40%;
+    padding-top: 2%;
+}
+
+.serv p{
+    font-size: 18px;
+    padding-left: 58%;
+    padding-top: 1%;
+}
+
+/* 
+for edge page */
+.edge{
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 99%;
+    border: solid 4px rgb(78, 68, 68);
+}
+
+.edge img{
+    height: 70%;
+    width: 46%;
+    padding-top: 3%;
+    padding-left: 3%;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.edge h3{
+    color:rgb(181, 24, 24);
+    padding-left: 70%;
+    padding-top: 1%;
+    font-size: 50px;
+}
+
+
+.edge p{
+    color: rgb(78, 68, 68);
+    padding-left: 60%;
+    padding-top: 3.5%;
+    font-size: 18px;
+}
+
+.our1 img{
+    height: 40px;
+    width: 3%;
+    padding-left:55%;
+}
+
+.our2 img{
+    height: 40px;
+    width: 3%;
+    padding-left:55%;
+}
+.our3 img{
+    height: 40px;
+    width: 3%;
+    padding-left:55%;
+}
+
+.our4 img{
+    height: 40px;
+    width: 3%;
+    padding-left:55%;
+}
+/* for destination page */
+
+.des{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 4px rgb(78, 68, 68);
+    height: 800px;
+    width: 99%;
+}
+
+.des img{
+    height:50%;
+    margin-left: 35%;
+    padding-top: 5%;
+    border-radius: 0px;
+    
+}
+
+.des h2{
+    color:  rgb(181, 24, 24);
+    padding-left: 37%;
+    font-size: 50px;
+}
+
+
+.des p{
+    color: black;
+    padding-left: 27%;
+    padding-top: 2%;
+    font-size: 30px;
+}
+
+/* for news page */
+
+
+.blog{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 4px rgb(78, 68, 68);
+    height: 950px;
+    width: 99%;
+}
+
+
+.blog p{
+    color: rgb(181, 24, 24);
+    padding-left: 40%;
+    font-size: 50px;
+}
+
+
+
+.blogs h3{
+    font-size: 16px;
+    color:white;
+    top: 12%;
+}
+
+
+
+.img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    left: 18%;
+    position: relative;
+}
+
+.img img{
+    height:auto;
+    width: 70%;
+    margin-top: 5%;
+    border-radius: 55px;
+}
+
+.day{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    grid-gap: 37%;
+    justify-content: center;
+    position: relative;
+    padding-right: 17%;
+    bottom: 7%;
+    font-size: 9px;
+    color: black;
+    font-weight: 400;
+}
+
+.system{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    grid-gap: 10%;
+    position: relative;
+    bottom: 4.5%;
+    font-size: 20px;
+    color: white;
+    padding-right: 10%;
+   
+}
+
+.one{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330px;
+    width: 25%;
+}
+
+.two{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330px;
+    width: 25%;
+}
+
+.arti{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    grid-gap: 13%;
+    justify-content: left;
+    left: 17.0%;
+    position: relative;
+    bottom: 30%;
+    font-size: 15px;
+    color: white;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    grid-gap: 40%;
+    padding-right: 20%;
+    justify-content: center;
+    position: relative;
+    bottom: 3%;
+    font-size: 20px;
+    color: white;
+    bottom: 34%;
+}
+
+.more{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    grid-gap: 40%;
+    padding-right: 20%;
+    justify-content: center;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    bottom: 25%;
+}
+.blogs1{
+    justify-content: left;
+    margin-bottom: 100%;
+   
+}
+.blogs1 img{
+    height: 300px;
+   border-radius: 12px;
+   
+}
+.blogs1 article{
+    position: relative;
+    right: 10%;
+    font-size: 14px;
+    bottom: 30px;
+}
+
+.blogs1 h3{
+    font-size: 20px;
+    color: rgb(27, 22, 22);
+    padding-left: 6%;
+}
+
+.blogs1 h4{
+    font-size: 20px;
+    color: rgb(27, 22, 22);
+    bottom: 100px;
+}
+
+
+.blogs2{
+    justify-content: left;
+    padding-left: 60%;
+    position: absolute;
+    padding-bottom: 200%;
+}
+.blogs2 img{
+    height: 300px;
+   border-radius: 12px;
+}
+.blogs2 article{
+    position: relative;
+    right: 10%;
+    font-size: 14px;
+    bottom: 30px;
+}
+
+.blogs2 h3{
+    font-size: 20px;
+    color: rgb(27, 22, 22);
+    padding-left: 6%;
+}
+
+.blogs2 h4{
+    font-size: 20px;
+    color: rgb(27, 22, 22);
+    bottom: 100px;
+}
+
+
+
+/* for about page */
+
+
+.con{
+    background-color: rgb(181, 24, 24);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: auto;
+    border: solid 4px rgb(78, 68, 68);
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    grid-gap: 10%;
+    justify-content: center;
+    position: relative;
+}
+.con img{
+    height: 150px;
+    padding-left: 8%;
+    padding-top: 3%;
+}
+
+.social{
+    display: flex;
+    flex-direction:column;
+   padding-left: 20%;
+   font-size: 7px;
+   text-decoration: none;
+}
+.con h2{
+    margin-left: 36%;
+}
+.con ul{
+    justify-content: left;
+    padding-top: 40px;
+    font-size: 20px;
+}
+.ul{
+    font-size:  14px;;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: right;
+    grid-gap: 20px;
+}
+/* for footer page */
+
+footer{
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    width: auto;
+    height: 45px;
+    background-color:rgb(181, 24, 24);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 4px rgb(78, 68, 68);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* about page */
+
+.about-page{
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: auto;
+    border: solid 4px rgb(78, 68, 68);
+    margin-top: 2%;
+}
+    
+    /* for about page hist */
+.hist .hist1 h3{
+    font-size: 20px;
+    padding-left: 15%;
+    padding-top: 2%;
+    color: black;
+    text-align:justify;
+}
+
+.about-page h2{
+    font-size: 80px;
+    padding-left: 23%;
+    padding-top: 5%;
+    color: white;
+    text-align:justify;
+}
+.hist .hist2 h3{
+    font-size: 20px;
+    padding-left: 15%;
+    padding-top: 2%;
+    color: black;
+    text-align:justify;
+}
+
+    
+.hist p{
+    font-size: 18px;
+    padding-top: 2%;
+    padding-left: 15%;
+}
+    
+/* for services page */
+.ten{
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: auto;
+    border: solid 4px rgb(78, 68, 68);
+    margin-top: 2%;
+    }
+.ten h3{
+    font-size: 80px;
+    padding-left: 5%;
+    padding-top:6%;
+    color:white;
+}
+
+.ten .oper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    grid-gap: 20%;
+    font-size: 37px;
+    padding-right: 10%;
+    color: white;
+    text-align:center;
+    justify-content:right;
+}
+
+/* for areas page */
+
+.area{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2600px;
+    width: auto;
+    border: solid 4px rgb(78, 68, 68);
+}
+
+.area img{
+    height: 100px;
+    margin-left: 3%;
+    position: absolute;
+    border-radius: 100px;
+}
+
+.area h2{
+    color: black;
+    font-size: 30px;
+    padding-left: 6%;
+    padding-top: 2%;
+}
+.areas{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 10%;
+    padding-left: 12%;
+}
+
+.areas img{
+    bottom: 40%;
+}
+
+.areas h3{
+    color: red;
+    font-size: 30px;
+    padding-left: 18%;
+}
+.art p{
+    font-size: 25px;
+    padding-top: 2%;
+    padding-left: 12%;
+}
+
+.infra{
+    font-size: 23px;
+    padding-left: 6%;
+    padding-top: 1%;
+}
+
+.infra h2{
+    color: red;
+}
+
+.infra img{
+    height: 400px;
+    width: 50%;
+    margin-left: 20%;
+    padding-top: 7;
+    position: absolute;
+}
+
+.iveco{
+    font-size: 23px;
+    padding-left: 6%;
+    padding-top: 27%;
+}
+
+
+.cargo{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 3;
+    padding-left: 6%;
+}
+
+.cargo h2{
+    color: red;
+}
+.cargo1 img{
+    height: 100px;
+    padding-top:8%;
+    position: absolute;
+}
+
+.cargo1 h3{
+    padding-top: 70%;
+    padding-left: 18%;
+    font-size: 25px;
+    color: red;
+}
+.cargo1 p{
+    color: black;
+    font-size: 22px;
+    padding-left: 6%;
+}
+
+
+.cargo2{
+    padding-left: 16%;
+}
+.cargo2 img{
+    height: 100px;
+    padding-top:8%;
+    position: absolute;
+}
+
+.cargo2 h3{
+    padding-top: 55%;
+    padding-left: 15%;
+    font-size: 25px;
+    color: red;
+}
+.cargo2 p{
+    color: black;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+
+/* 
+for track page */
+
+.track{
+    background-image: url(/images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: auto;
+    border: solid 4px rgb(78, 68, 68);
+    margin-top: 2%;
+}
+
+.track h2{
+    font-size: 80px;
+    padding-left: 7%;
+    padding-top:2%;
+    color: white;
+}
+
+/* for areas page */
+
+.tracking{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+    width: 99%;
+    border: solid 4px rgb(78, 68, 68);
+}
+
+.tracking img{
+    height: 50%;
+    padding-left: 37%;
+    padding-top: 4%;
+    position: absolute;
+    border-radius: 100px;
+}
+
+.plays{
+    padding-top:30%;
+}
+.tracking p{
+    position: relative;
+    font-size: 20px;
+    padding-left: 14%;
+    margin-top:4% ;
+   
+}
+
+
+
+/* for career page */
+.car{
+    background-image: url(/images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: auto;
+    border: solid 4px rgb(78, 68, 68);
+    margin-top: 2%;
+}
+    
+.car h2{
+    font-size: 90px;
+    padding-left: 20%;
+    padding-top:3%;
+    color: white;
+}
+
+    
+/* for areas page */
+    
+.care{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: auto;
+    border: solid 4px rgb(78, 68, 68);
+}
+    
+.care img{
+    height: 310px;
+    padding-left: 40%;
+    padding-top: 4%;
+}    
+.care p{
+    position: relative;
+    font-size: 25px;
+    padding-left: 18%;
+    padding-top: 3%;
+}
+   
+.care ul{
+    position: relative;
+    font-size: 25px;
+    padding-left: 19.5%;
+    padding-top: 3%;
+}
+    
+
+
+
+/* for contact page */
+
+.contacts{
+    background-image: url(/images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: auto;
+    border: solid 4px rgb(78, 68, 68);
+    margin-top: 2%;
+}
+        
+.contacts h2{
+    font-size: 90px;
+    padding-left: 20%;
+    padding-top:3%;
+    color: white;
+}
+
+
+
+
+        /* 
+        for contact image */
+        
+.contacts-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 470px;
+    width: auto;
+    border: solid 3px black;
+}
+        
+        
+.contacts-image img{
+    height: 300px;
+    padding-top: 1%;
+    padding-left:10% ;
+}
+
+        
+.locate{
+    display: flex;
+    flex-direction: row;
+    padding-left: 17%;
+    grid-gap: 58%;
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+}
+
+        /* for areas page */
+        
+.Containers{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+    width: auto;
+    border: solid 3px black;
+}
+        
+form{
+    top: 87%;
+    left: 40%;
+    font-size: 11px;
+    grid-gap: 70px;
+    position: absolute;
+    justify-content: center;
+           
+}
+        
+#name{
+    
+    position: relative;
+    /* width: 40%;
+    height: 10px; */
+    background: rgb(234, 229, 229);
+    border-radius: 7px;
+    border: 3px solid rgb(236, 208, 208);
+}
+        
+.name1{
+    width: 110%;
+    height: 70px;
+    right: 100%;
+    top: 120px;
+    font-size: 20px;
+    position: absolute;
+    background: rgb(234, 229, 229);
+    border-radius: 7px;
+    border: 3px solid rgb(236, 208, 208);
+}
+        
+.name2{
+    width: 110%;
+    height: 70px;
+    left: 45%;
+    top: 50px;
+    font-size: 20px;
+    position: absolute;
+    background: rgb(234, 229, 229);
+    border-radius: 7px;
+    border: 3px solid rgb(236, 208, 208);
+}
+        
+.name3{
+    width: 110%;
+    height: 70px;
+    right: 100%;
+    top: 160px;
+    font-size: 20px;
+    background: rgb(234, 229, 229);
+    border-radius: 7px;
+    border: 3px solid rgb(236, 208, 208);
+}
+        
+.name4{
+    top: 83px;
+    width: 110%;
+    height: 70px;
+    left: 45%;
+    font-size: 20px;
+    background: rgb(234, 229, 229);
+    border-radius: 7px;
+    border: 3px solid rgb(236, 208, 208);
+}
+#email{
+    right: 100%;
+    font-size: 20px;
+    margin-top: 24%;
+    position: relative;
+    width: 255%;
+    height: 90px;
+    background: rgb(234, 229, 229);
+    border-radius: 7px;
+    border: 3px solid rgb(236, 208, 208);
+}
+        
+#message{
+    right: 100%;
+    font-size: 20px;
+    margin-top:10%;
+    position: relative;
+    width: 255%;
+    height: 110px;
+    background: rgb(234, 229, 229);
+    border-radius: 9px;
+    border: 3px solid rgb(236, 208, 208);
+}
+        
+ button{
+    font-size: 20px;
+    margin-top: 5%;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background: rgb(181, 24, 24);
+    border-radius: 20px;
+    border: 3px solid rgb(61, 56, 56);
+}
+
+
